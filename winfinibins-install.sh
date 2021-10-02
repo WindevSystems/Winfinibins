@@ -1,6 +1,6 @@
 echo "Welcome to the Winfinibins Installer"
 echo "Making Bin Directory"
-mkdir winfinibins
+mkdir ~/winfinibins
 echo "Done, located in $HOME/winfinibins"
 echo "Adding Lines to .bashrc"
 echo "export WINFINIBINS_DIR=\"$HOME/winfinibins\"" | tee -a $HOME/.bashrc
