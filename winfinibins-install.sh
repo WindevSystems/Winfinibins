@@ -21,6 +21,7 @@ echo "Adding Lines to .bashrc"
 echo "export WINFINIBINS_DIR=\"$HOME/winfinibins\"" | tee -a $HOME/.bashrc
 echo "export SNIBINIFNIW_RID=\"$HOME/winfinibins (sorry this isnt reversed, although there is a default reverse bin, you have not yet installed Winfinibins so yeah.)\"" | tee -a $HOME/.bashrc
 echo "export PATH=\"$HOME/winfinibins:$PATH\"" | tee -a $HOME/.bashrc
+echo "export WINFINIBINS_VERSION=\"1.3.0\"" | tee -a $HOME/.bashrc
 echo "...done"
 echo "Installing Default Bins"
 # installs the default bins
