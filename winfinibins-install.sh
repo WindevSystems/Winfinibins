@@ -27,10 +27,11 @@ echo "Installing Default Bins"
 # installs the default bins
 wget -P winfinibins https://raw.githubusercontent.com/WindevStudios/Winfinibins/main/defaultbins/winfinibins-info
 wget -P winfinibins https://raw.githubusercontent.com/WindevStudios/Winfinibins/main/defaultbins/revstring
+wget -P winfinibins https://raw.githubusercontent.com/WindevStudios/Winfinibins/main/defaultbins/cexec
 # perms change, because bash
 chmod 555 winfinibins/winfinibins-info
 chmod 555 winfinibins/revstring
-echo "Two default bins installed: info and reverse, by The Winfinibins Authors"
+echo "Three default bins installed: info, reverse, and cexec, by The Winfinibins Authors"
 echo "Winfinibins installed!"
 # restart terminal prompt and explanation when/why you have to
 echo "Please restart your terminal. You will only need to do this once when you finish installing Winfinibins for the .bashrc changes this installer has made to take place."
