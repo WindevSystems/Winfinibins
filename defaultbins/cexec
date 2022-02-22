@@ -1,0 +1,9 @@
+# Curl|bash but simpler.
+if [ -z "$1" ]
+then
+      echo "At least give me something."
+      exit
+else
+      echo "Downloading/executing $1..."
+      curl $1 | bash
+fi
