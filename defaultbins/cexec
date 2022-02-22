@@ -1,9 +1,11 @@
 # Curl|bash but simpler.
 if [ -z "$1" ]
 then
+      echo "Cexec: curl\|bash but shortened"
       echo "At least give me something."
       exit
 else
+      echo "Cexec: curl\|bash but shortened"
       echo "Downloading/executing $1..."
       curl $1 | bash
 fi
