@@ -1,0 +1,11 @@
+#!/bin/bash
+# Snapc: Gets rid of annoying --classic prompts by running the --classic command.
+# Usage: snapc [snap to install]
+if [ -z "$1" ]
+then
+      echo "At least give me something."
+      exit
+else
+      echo "Installing $1 (may ask you for your password)..."
+      sudo snap install $1 --classic
+fi
